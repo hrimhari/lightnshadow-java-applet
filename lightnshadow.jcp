@@ -1,0 +1,26 @@
+! ** JCreator Project File (C)2000
+! ********** DO NOT EDIT *********
+
+VERSION := "1.10"
+LABEL := "lightnshadow"
+JDKPROFILE := "j2sdk1.4.0"
+ACTIVE := "1"
+OUTPUTPATH := "\\classes"
+COMPILER := "<Default>"
+
+! Start RunTime Configuration Structure
+#[BeginRunTime]LABEL := "<Default>" RUNAPPLIC := "<Default>" RUNAPPLET := "<Default>" PARAM := "" RUN := "\\classes\\index.html" CHECK := "10" #[EndRunTime]
+! Start Required Libraries Structure
+
+! Start Project Folder Structure
+#[BeginFolder]
+LABEL := "Root"
+FILTER := ""
+
+#[BeginFile]SOURCE := "\\classes\\index.html" #[EndFile]
+#[BeginFile]SOURCE := "\\ShadowRenderer.java" #[EndFile]
+#[BeginFile]SOURCE := "\\LightRenderer.java" #[EndFile]
+#[BeginFile]SOURCE := "\\Lightnshadow.java" #[EndFile]
+#[BeginFile]SOURCE := "\\normal.java" #[EndFile]
+#[BeginFile]SOURCE := "\\Coord3D.java" #[EndFile]
+#[EndFolder]
